@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://flynnji0x.github.io/
 locale: en-us
 title: My New Hugo Project
 theme: PaperMod
@@ -75,12 +75,12 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    # - name: x
+    #   url: "https://x.com/"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/flynnji0x"
 
   analytics:
     google:
@@ -135,3 +135,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+caches:
+  images:
+    dir: :cacheDir/images
