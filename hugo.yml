@@ -8,6 +8,13 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+# required for search index (index.json)
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -114,6 +121,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 5
     - identifier: categories
       name: categories
       url: /categories/
@@ -123,8 +134,8 @@ menu:
       url: /tags/
       weight: 20
     - identifier: example
-      name: example.org
-      url: https://example.org
+      name: Github
+      url: https://github.com/flynnji0x
       weight: 30
 # Read: Hugo chroma syntax highlighter (PaperMod FAQ)
 pygmentsUseClasses: true
