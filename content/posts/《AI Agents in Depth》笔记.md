@@ -4,6 +4,7 @@ date = '2026-07-16'
 tags = ["ai-agent", "LLM", "智能体", "读书笔记", "github"]
 categories = ["读书笔记"]
 +++
+# 深入理解 AI Agent（设计原理与工程实践）
 
 > 资料来源：GitHub [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)
 
