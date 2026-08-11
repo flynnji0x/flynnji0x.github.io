@@ -4,7 +4,6 @@ date = '2026-07-16'
 tags = ["ai-agent", "LLM", "智能体", "读书笔记", "github"]
 categories = ["读书笔记"]
 +++
-# 深入理解 AI Agent（设计原理与工程实践）
 
 > 资料来源：GitHub [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)
 
@@ -166,3 +165,4 @@ Coding Agent 加上文件系统，是开放任务型通用 Agent 最核心的技
 ## 为什么编程是 AI 最强的领域
 
 持这种看法的人（不乏 OpenAI、Anthropic 的研究者）会指出，AI 今天唯独在编程上最强，并不是因为代码对模型有什么特殊，而是因为编程是人类最开放的领域：海量开源代码摆在那里，可供学习；而绝大多数行业压根没有公开的信息与数据。
+

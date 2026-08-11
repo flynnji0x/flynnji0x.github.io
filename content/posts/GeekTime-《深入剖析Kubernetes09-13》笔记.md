@@ -2,7 +2,6 @@
 title = "GeekTime -《深入剖析Kubernetes09-13》笔记"
 date = '2021-03-18'
 +++
-# 深入剖析kubernetes
 
 ### 09 从容器到容器云：谈谈kubernetes的本质
 
@@ -59,3 +58,4 @@ date = '2021-03-18'
 - Pod，最重要的一个事实是，它只是一个逻辑概念
 - Pod里的所有容器，共享的是同一个Network Namespace，并且可以声明共享同一个Volume
 - Pod的实现需要使用一个中间容器，这个容器叫做Infra容器，永远是第一个被创建的容器
+

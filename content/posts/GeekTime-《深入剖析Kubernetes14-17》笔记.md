@@ -2,7 +2,6 @@
 title = "GeekTime -《深入剖析Kubernetes14-17》笔记"
 date = '2021-03-22'
 +++
-# 深入剖析kubernetes
 
 ### 14 深入解析Pod对象（一）：基本概念
 
@@ -64,3 +63,4 @@ date = '2021-03-22'
   - Deployment只是在ReplicaSet的基础上，添加了UP-TO-DATE这个跟版本相关的状态字段
   - Deployment实际上是一个两层控制器，通过ReplicaSet的个数来描述应用的版本，再通过ReplicaSet的属性来保证Pod的副本数量
   - Deployment控制ReplicaSet（应用版本），ReplicaSet控制Pod（副本数）
+

@@ -4,7 +4,6 @@ date = '2019-05-01'
 tags = ["笔记", "极客时间", "网络协议"]
 categories = ["极客时间"]
 +++
-# 趣谈网络协议-通信协议综述
 
 ### 01 为什么要学习网络协议
 
@@ -60,3 +59,4 @@ categories = ["极客时间"]
   - DHCP Offer
 - IP地址的收回和续租
 - 预启动执行环境（PXE，Pre-boot Execution Environment）
+

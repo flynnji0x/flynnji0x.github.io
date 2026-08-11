@@ -4,7 +4,6 @@ date = '2019-06-07'
 tags = ["笔记", "极客时间", "网络编程"]
 categories = ["极客时间"]
 +++
-# 网络编程实战-基础篇
 
 ### 02 网络编程模型
 
@@ -189,3 +188,4 @@ ssize_t sendto(int sockfd, const void *buff, size_t nbytes, int flags,
 - netstat，了解当前系统的网络连接状况
 - lsof，找出在指定的IP地址hhuoz端口上打开套接字的进程
 - tcpdump，抓包工具，用于查看报文，排查问题
+

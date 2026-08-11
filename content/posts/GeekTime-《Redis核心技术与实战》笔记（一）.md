@@ -4,7 +4,6 @@ date = '2021-06-02'
 tags = ["笔记", "极客时间", "Redis"]
 categories = ["极客时间"]
 +++
-# Redis核心技术与实战（一）
 
 ### 00 开篇词
 
@@ -191,3 +190,4 @@ sentinel monitor <master-name> <ip> <redis-port> <quorum>
     - 另外一种情况，数据只有一部分迁移到了新的实例，还有部分数据没有迁移
         - ASK命令并不会更新客户端缓存的哈希槽分配信息
 ![2021-06-08_221010](/image/GeekTime-《Redis核心技术与实战》笔记（一）/2021-06-08_221010.png)
+

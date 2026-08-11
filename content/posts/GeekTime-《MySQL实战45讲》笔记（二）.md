@@ -4,7 +4,6 @@ date = '2022-04-03'
 tags = ["笔记", "极客时间", "数据库", "MySQL"]
 categories = ["极客时间"]
 +++
-# MySQL实战45讲（二）
 
 ### 11 怎么给字符串加索引
 
@@ -162,3 +161,4 @@ Mysql会判断执行SQL使用哪种格式保存binlog，既利用了statement格
     - 1，规定两个库的server_id不同，如果相同，则不能互为主备关系
     - 2，备库拿到主库的binlog执行并生成与原binlog的server_id相同的新的binlog
     - 3，每个库收到日志后，先判断server_id，如果和自己的相同，表示是自己生成的，直接丢弃这个日志
+

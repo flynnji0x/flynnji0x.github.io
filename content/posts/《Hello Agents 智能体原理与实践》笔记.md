@@ -4,7 +4,6 @@ date = '2026-03-10'
 tags = ["ai-agent", "LLM", "智能体", "datawhale", "github"]
 categories = ["读书笔记"]
 +++
-# 从零开始构建智能体（Hello Agents）
 
 > 资料来源：GitHub [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)
 
@@ -290,3 +289,4 @@ Agentic RL 的六大核心能力：
 2. 通用能力评估
 3. 多智能体协作评估
 4. 常用评估指标
+

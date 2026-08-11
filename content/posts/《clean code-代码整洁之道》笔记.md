@@ -4,7 +4,6 @@ date = '2022-05-05'
 tags = ["clean-code", "代码整洁之道", "读书笔记"]
 categories = ["读书笔记"]
 +++
-# Clean Code 代码整洁之道
 
 ## 序
 
@@ -230,3 +229,4 @@ the law of demeter 模块不应了解它所操作对象的内部情况。
 最小惊异原则 the principle of least
 
 surprise：函数或类应该实现其他程序员有理由期待的行为
+

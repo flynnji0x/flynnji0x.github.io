@@ -4,7 +4,6 @@ date = '2022-03-21'
 tags = ["笔记", "极客时间", "数据库", "MySQL"]
 categories = ["极客时间"]
 +++
-# MySQL实战45讲（一）
 
 ### 01_基础架构：一条SQL查询语句是如何执行的？
 
@@ -160,3 +159,4 @@ Mysql5.6引入的索引下推优化，index condition pushdown，可以在索引
     - InnoDB采用采样统计的方法得到索引的基数
     - 重新统计索引信息，analyze table t
     - 可以使用force index强行指定索引，也可以通过修改sql语句引导优化器
+
