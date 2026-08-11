@@ -141,6 +141,10 @@ menu:
       name: Github
       url: https://github.com/flynnji0x
       weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
 # Read: Hugo chroma syntax highlighter (PaperMod FAQ)
 pygmentsUseClasses: true
 markup:
