@@ -122,18 +122,22 @@ params:
 menu:
   main:
     - identifier: search
-      name: search
+      name: Search
       url: /search/
       weight: 5
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: archives
+      name: Archives
+      url: /archives/
       weight: 10
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: example
+    - identifier: github
       name: Github
       url: https://github.com/flynnji0x
       weight: 30
