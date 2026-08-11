@@ -1,6 +1,6 @@
 baseURL: https://flynnji0x.github.io/
 locale: en-us
-title: My New Hugo Project
+title: Flynn's Blog
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -13,8 +13,9 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  # enables google analytics, opengraph, twitter-cards and schema
+  env: production
+  title: Flynn's Blog
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -57,7 +58,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: Flynn's Blog
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -125,7 +126,7 @@ menu:
       name: example.org
       url: https://example.org
       weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# Read: Hugo chroma syntax highlighter (PaperMod FAQ)
 pygmentsUseClasses: true
 markup:
   highlight:
