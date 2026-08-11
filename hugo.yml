@@ -79,8 +79,13 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hello, World! \U0001F44B"
+    Content: >
+      我是 **Flynn Ji**，一名Coder。  
+
+      目前沉迷于各种大模型工具，致力于“让 AI 帮我写代码，我负责喝咖啡”。  
+
+      欢迎通过邮件 [jfl9006@gmail.com](mailto:jfl9006@gmail.com) 联系我。
 
   socialIcons:
     # - name: x
@@ -121,14 +126,19 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5
+
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 10
     - identifier: search
       name: Search
       url: /search/
-      weight: 5
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 10
+      weight: 20
     # - identifier: categories
     #   name: categories
     #   url: /categories/
@@ -136,14 +146,10 @@ menu:
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 30
     - identifier: github
       name: Github
       url: https://github.com/flynnji0x
-      weight: 30
-    - identifier: about
-      name: About
-      url: /about/
       weight: 40
 # Read: Hugo chroma syntax highlighter (PaperMod FAQ)
 pygmentsUseClasses: true
