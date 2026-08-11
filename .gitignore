@@ -1,0 +1,28 @@
+# Hugo 构建输出（hugo 命令生成的站点文件，由 CI/部署流程重新生成）
+/public/
+
+# Hugo 缓存与临时文件
+/resources/_gen/
+/.hugo_build.lock
+/.hugo/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Node / 前端工具（若后续引入）
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+dist/
