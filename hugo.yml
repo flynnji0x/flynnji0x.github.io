@@ -81,19 +81,21 @@ params:
   homeInfoParams:
     Title: "Hello, World! \U0001F44B"
     Content: >
-      我是 **Flynn Ji**，一名Coder。  
+      我是 **Flynn Ji**，一名Coder。
 
-      目前沉迷于各种大模型工具，致力于“让 AI 帮我写代码，我负责喝咖啡”。  
+      目前沉迷于各种大模型工具，致力于“让 AI 帮我写代码，我负责喝咖啡”。
 
       欢迎通过邮件 [jfl9006@gmail.com](mailto:jfl9006@gmail.com) 联系我。
 
   socialIcons:
-    # - name: x
-    #   url: "https://x.com/"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
-    - name: github
+    - name: Github
+      title: View Source on Github
       url: "https://github.com/flynnji0x"
+    - name: X
+      title: Share Flynn's Blog on X/Twitter
+      url: "https://x.com/intent/tweet/?text=Checkout%20Flynn%27s%20Blog%20%E2%9C%A8&url=https://flynnji0x.github.io/&hashtags=Blog"
 
   analytics:
     google:
@@ -109,7 +111,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/flynnji0x/flynnji0x.github.io/tree/dev/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
